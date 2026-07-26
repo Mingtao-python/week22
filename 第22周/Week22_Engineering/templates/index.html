@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG Demo</title>
+</head>
+<body>
+    <h1>RAG Demo</h1>
+
+    <form method="POST">
+        <h3>Add Document</h3>
+        <textarea name="docs" rows="4" cols="60"></textarea>
+
+        <h3>Ask Question</h3>
+        <input name="query" size="60">
+
+        <br><br>
+        <button type="submit">Run</button>
+    </form>
+
+    <h3>Answer</h3>
+    <pre>{{ answer }}</pre>
+
+    <h3>Citations</h3>
+    <pre>{{ citations }}</pre>
+
+    <h3>Context</h3>
+    <pre>{{ context }}</pre>
+</body>
+</html>

@@ -1,21 +1,34 @@
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-def test_accuracy(docs, query, chunk_size, top_k):
-    model = SentenceTransformer("all-MiniLM-L6-v2")
-    chunks = [docs[i:i+chunk_size] for i in range(0, len(docs), chunk_size)]
-    chunks = [" ".join(c) for c in chunks]
+def chunk_text(text, size):
+    return [text[i:i+size] for i in range(0, len(text), size)]
 
-    vecs = model.encode(chunks)
-    q_vec = model.encode([query])[0]
-
+def top1(vecs, q_vec):
     scores = np.dot(vecs, q_vec)
-    idx = np.argsort(scores)[::-1][:top_k]
-    return idx[0]
+    return int(np.argmax(scores))
+
+def test_chunk_size(doc, query, sizes):
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    q_vec = model.encode([query])[0]
+    results = {}
+    for s in sizes:
+        chunks = chunk_text(doc, s)
+        vecs = model.encode(chunks)
+        results[s] = top1(vecs, q_vec)
+    return results
 
 if __name__ == "__main__":
-    docs = ["Python is great"] * 1000
-    query = "python"
+    long_doc = (
+        "Python is a programming language widely used for AI, data science, automation, "
+        "web development, and education. It provides simple syntax and powerful libraries "
+        "such as NumPy, Pandas, TensorFlow, and PyTorch. Python is also used in machine "
+        "learning, natural language processing, and backend systems. Many developers prefer "
+        "Python because it is easy to learn and has a large community. Python supports "
+        "object-oriented programming, functional programming, and scripting. It is one of "
+        "the most popular languages in the world."
+    )
 
-    for size in [100, 300, 500]:
-        print("Chunk:", size, "Result:", test_accuracy(docs, query, size, 3))
+    query = "python programming language"
+    sizes = [100, 300, 500]
+    print(test_chunk_size(long_doc, query, sizes))

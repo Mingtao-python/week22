@@ -57,10 +57,8 @@ A group of programmes that is about the topic I am learning that is Faiss, Sente
 
 ## Implementation5
 ### Risks:
-- In the LLM I just write "fake answer" as output, no real model used.
 - Same as all others, no prompt filter.
 ### Findings:
-- Cannot answer real question and only output "fake answer".
 - Updating 10000 words is making the machine crash.
 ### Mitigation:
 - Add prompt filter.
