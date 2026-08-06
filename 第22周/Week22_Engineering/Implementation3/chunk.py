@@ -1,3 +1,4 @@
+import time
 def chunk_text(text, size):
     chunks = []
     for i in range(0, len(text), size):
@@ -7,5 +8,7 @@ def chunk_text(text, size):
 if __name__ == "__main__":
     text = "A" * 2000
     for size in [100, 300, 500]:
+        start = time.time()
         chunks = chunk_text(text, size)
-        print(size, len(chunks))
+        duration = time.time() - start
+        print(size, len(chunks), f"{duration:.10f}s")
