@@ -9,7 +9,7 @@ class EmbeddingModel:
         self.model_name = model_name
         self.model = SentenceTransformer(model_name)
         self.model_version = getattr(self.model, "_model_card_vars", {}).get("version", "unknown") or "unknown"
-        self.vector_dim = int(self.model.get_sentence_embedding_dimension())
+        self.vector_dim = int(self.model.get_embedding_dimension())
         self.retrieval_method = "SentenceTransformer Embedding"
 
     def encode(self, texts: Union[str, Iterable[str]]) -> np.ndarray:

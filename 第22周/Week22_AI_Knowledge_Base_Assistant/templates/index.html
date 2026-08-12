@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Knowledge Base Assistant</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 32px; }
+        .panel { margin-bottom: 24px; border: 1px solid #ddd; padding: 16px; border-radius: 8px; }
+        .meta { color: #555; font-size: 14px; }
+        .error { color: #b00020; }
+        .success { color: #0b7a39; }
+        textarea, input, select { width: 100%; max-width: 720px; margin-top: 8px; margin-bottom: 12px; }
+        .citation { background: #f5f5f5; padding: 12px; border-radius: 6px; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <h1>AI Knowledge Base Assistant</h1>
+    <div class="meta">
+        Retrieval method: {{ retrieval_method }}<br>
+        Generation mode: {{ generation_mode }}<br>
+        Documents in index: {{ document_count }}
+    </div>
+
+    <div class="panel">
+        <h2>Upload Document</h2>
+        <form method="post" enctype="multipart/form-data" action="/upload">
+            <label>Upload file</label>
+            <input type="file" name="file" accept=".txt,.md,.pdf">
+            <label>Role</label>
+            <select name="role">
+                <option value="student">student</option>
+                <option value="teacher">teacher</option>
+                <option value="admin">admin</option>
+            </select>
+            <button type="submit">Upload</button>
+        </form>
+        {% if error %}<p class="error">{{ error }}</p>{% endif %}
+        {% if success %}<p class="success">{{ answer }}</p>{% endif %}
+    </div>
+
+    <div class="panel">
+        <h2>Ask Question</h2>
+        <form method="post" action="/ask">
+            <label>Question</label>
+            <textarea name="question" rows="5" placeholder="Ask a question about your knowledge base..."></textarea>
+            <label>Role</label>
+            <select name="role">
+                <option value="student">student</option>
+                <option value="teacher">teacher</option>
+                <option value="admin">admin</option>
+            </select>
+            <button type="submit">Ask</button>
+        </form>
+        {% if answer and not success %}
+            <h3>Answer</h3>
+            <p>{{ answer }}</p>
+        {% endif %}
+
+        {% if sources %}
+            <h3>Evidence</h3>
+            {% for source in sources %}
+            <div class="citation">
+                <strong>{{ source.metadata.filename }}</strong><br>
+                <span>{{ source.citation }}</span>
+                <p>{{ source.text }}</p>
+            </div>
+            {% endfor %}
+        {% endif %}
+
+        {% if citations %}
+            <h3>Citations</h3>
+            {% for citation in citations %}
+                <div class="citation">{{ citation }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</body>
+</html>
