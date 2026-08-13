@@ -1,4 +1,0 @@
-faiss_cpu
-sentence-transformers
-numpy
-flask

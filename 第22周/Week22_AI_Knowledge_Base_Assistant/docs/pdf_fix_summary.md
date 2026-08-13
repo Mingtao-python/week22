@@ -1,24 +1,24 @@
 # PDF Upload 功能 - 问题修复总结
 
-## 🔴 原始问题
+## 原始问题
 
 ### 代码问题 (src/upload.py)
 ```python
 def read_pdf(path):
-    return "PDF content placeholder"  # ❌ 假的！
+    return "PDF content placeholder"
 ```
 
 **影响**:
-- ❌ 无论上传什么PDF，都返回固定的假文本
-- ❌ 无法读取真实PDF内容
-- ❌ 无法跟踪页码
-- ❌ 违反课程要求
+- 无论上传什么PDF，都返回固定的假文本
+- 无法读取真实PDF内容
+- 无法跟踪页码
+- 违反课程要求
 
 ---
 
-## ✅ 完整解决方案
+## 完整解决方案
 
-### 1️⃣ 依赖管理
+### 依赖管理
 
 **文件**: `requirements.txt`
 ```diff
@@ -34,11 +34,11 @@ def read_pdf(path):
 - 使用pdfplumber库解析PDF
 - 返回 `{页码: 文本内容}` 映射
 - **支持的场景**:
-  - ✅ 单页PDF
-  - ✅ 多页PDF
-  - ✅ 空PDF (优雅降级)
-  - ✅ 中文PDF (UTF-8支持)
-  - ✅ 损坏PDF (清晰错误提示)
+  - 单页PDF
+  - 多页PDF
+  - 空PDF (优雅降级)
+  - 中文PDF (UTF-8支持)
+  - 损坏PDF (清晰错误提示)
 
 #### 更新函数: `parse_document()`
 - 检测PDF文件
@@ -76,7 +76,7 @@ def _upload_pdf(self, raw_bytes, filename, user_role, metadata_base):
 
 ---
 
-## 🧪 测试结果
+## 测试结果
 
 ### 运行测试
 ```bash
@@ -87,13 +87,13 @@ python tests/test_pdf_parsing.py
 
 | 测试场景 | 输入 | 结果 | 验证内容 |
 |---------|------|------|---------|
-| 单页PDF | 1个页面 | ✅ PASS | 1页，正确提取 |
-| 多页PDF | 3个页面 | ✅ PASS | 3页，每页单独跟踪 |
-| 空PDF | 空页面 | ✅ PASS | 优雅处理，提示"页面为空" |
-| 中文PDF | 含中文字符 | ✅ PASS | 正确解析UTF-8中文 |
-| 损坏PDF | 无效字节 | ✅ PASS | 正确拒绝，清晰错误提示 |
+| 单页PDF | 1个页面 | PASS | 1页，正确提取 |
+| 多页PDF | 3个页面 | PASS | 3页，每页单独跟踪 |
+| 空PDF | 空页面 | PASS | 优雅处理，提示"页面为空" |
+| 中文PDF | 含中文字符 | PASS | 正确解析UTF-8中文 |
+| 损坏PDF | 无效字节 | PASS | 正确拒绝，清晰错误提示 |
 
-**总体结果**: `5/5 通过 ✅`
+**总体结果**: `5/5 通过`
 
 ### 测试输出样例
 ```
@@ -103,7 +103,7 @@ PDF Parsing Test Suite
 
 [TEST] Multi-Page PDF
 ----------------------------------------------------------------------
-✅ Successfully parsed PDF
+Successfully parsed PDF
    Pages found: 3
    Details:
    - Page 1: 95 chars
@@ -139,7 +139,7 @@ Total: 5 Passed, 0 Failed, 0 Errors out of 5 tests
 
 ## 🎯 功能对比
 
-### 修复前 ❌
+### 修复前
 ```python
 def read_pdf(path):
     return "PDF content placeholder"
@@ -147,7 +147,7 @@ def read_pdf(path):
 # 结果: 任何PDF -> "PDF content placeholder"
 ```
 
-### 修复后 ✅
+### 修复后
 ```python
 def parse_pdf_with_pages(raw_bytes, filename):
     # 真实解析PDF
@@ -162,7 +162,7 @@ def parse_pdf_with_pages(raw_bytes, filename):
 
 ---
 
-## 💡 关键改进
+## 关键改进
 
 | 方面 | 修复前 | 修复后 |
 |------|-------|--------|
