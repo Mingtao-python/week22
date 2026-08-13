@@ -102,13 +102,13 @@ HTML = """
         <div class="section" style="background: #e8f4f8; border-left: 4px solid #17a2b8;">
             <h3>🔒 Security Features</h3>
             <ul>
-                <li>✓ Filename sanitization & path traversal protection</li>
-                <li>✓ Prompt injection detection & mitigation</li>
-                <li>✓ Granular permission control (role-based & class-based)</li>
-                <li>✓ Accurate cosine similarity search with normalization</li>
-                <li>✓ Multi-page PDF support with page tracking</li>
-                <li>✓ 10MB file size limit & MIME type validation</li>
-                <li>✓ Secure logging & error handling</li>
+                <li> Filename sanitization & path traversal protection</li>
+                <li> Prompt injection detection & mitigation</li>
+                <li> Granular permission control (role-based & class-based)</li>
+                <li> Accurate cosine similarity search with normalization</li>
+                <li> Multi-page PDF support with page tracking</li>
+                <li> 10MB file size limit & MIME type validation</li>
+                <li> Secure logging & error handling</li>
             </ul>
         </div>
     </div>
