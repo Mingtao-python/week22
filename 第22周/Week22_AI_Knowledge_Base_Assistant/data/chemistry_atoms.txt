@@ -1,0 +1,172 @@
+Chemistry: Atomic Structure and Bonding
+
+Chapter 1: Atomic Structure
+
+1.1 Basic Particle Composition
+All matter is composed of atoms. An atom consists of:
+
+Nucleus (at the center):
+- Protons: Positively charged particles, mass ≈ 1 amu
+- Neutrons: Neutral particles, mass ≈ 1 amu
+
+Electron Cloud (surrounding nucleus):
+- Electrons: Negatively charged particles, mass ≈ 1/1836 amu
+- Located in orbitals at various energy levels
+
+1.2 Atomic Numbers and Mass Numbers
+Atomic Number (Z): The number of protons in an atom
+- Defines the element
+- For neutral atoms: Number of electrons = Number of protons
+
+Mass Number (A): The total number of protons and neutrons
+- A = Z + number of neutrons
+- Isotopes are atoms of the same element with different numbers of neutrons
+
+Example: Carbon-12 (¹²C)
+- Atomic number = 6 (6 protons)
+- Mass number = 12 (6 protons + 6 neutrons)
+- Neutral atom has 6 electrons
+
+1.3 Electron Configuration
+Electrons occupy orbitals in different energy levels.
+
+Bohr Model (simplified):
+- First shell (n=1): Maximum 2 electrons
+- Second shell (n=2): Maximum 8 electrons
+- Third shell (n=3): Maximum 18 electrons
+
+The Aufbau Principle: Fill lower energy orbitals first before higher ones.
+
+Order of orbital filling: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p...
+
+Notation: s, p, d, f orbitals (s=2e⁻, p=6e⁻, d=10e⁻, f=14e⁻)
+
+Examples:
+- Hydrogen (H): 1s¹
+- Carbon (C): 1s² 2s² 2p²
+- Oxygen (O): 1s² 2s² 2p⁴
+- Sodium (Na): 1s² 2s² 2p⁶ 3s¹
+- Iron (Fe): 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶ or [Ar] 4s² 3d⁶
+
+1.4 Valence Electrons
+Valence electrons are the outermost electrons involved in chemical bonding.
+
+Electrons in the outermost s and p orbitals are typically considered valence electrons.
+
+Group trends (periodic table):
+- Group 1 (alkali metals): 1 valence electron
+- Group 2 (alkaline earth metals): 2 valence electrons
+- Group 13-18: 3-8 valence electrons
+- Transition metals: Complex, but usually 2 valence electrons from s orbital + d electrons
+
+Chapter 2: Chemical Bonding
+
+2.1 Ionic Bonding
+Ionic bonds form when electrons are transferred from one atom to another.
+
+Characteristics:
+- Forms between metals and nonmetals
+- Metal loses electrons (forms cation with positive charge)
+- Nonmetal gains electrons (forms anion with negative charge)
+- Electrostatic attraction holds the ions together
+- Typically forms crystalline solids
+- Conducts electricity in molten or aqueous solution
+
+Examples:
+- Sodium chloride (NaCl): Na⁺ transfers 1 electron to Cl⁻
+- Magnesium oxide (MgO): Mg²⁺ transfers 2 electrons to O²⁻
+- Calcium fluoride (CaF₂): Ca²⁺ transfers 1 electron to each of 2 F⁻ ions
+
+2.2 Covalent Bonding
+Covalent bonds form when electrons are shared between atoms.
+
+Types:
+Single bond: Sharing of 1 pair of electrons (σ bond)
+- H-H, C-H, O-H
+
+Double bond: Sharing of 2 pairs of electrons (1 σ bond + 1 π bond)
+- C=C, C=O, N=N
+
+Triple bond: Sharing of 3 pairs of electrons (1 σ bond + 2 π bonds)
+- C≡N, N≡N
+
+Polar vs. Nonpolar:
+- Nonpolar: Equal sharing of electrons (same atoms or similar electronegativity)
+  Examples: H₂, Cl₂, CCl₄
+- Polar: Unequal sharing of electrons (different electronegativity)
+  Examples: HCl, H₂O, NH₃
+
+Lewis Structures:
+Dot notation showing valence electrons and bonds
+Example: H₂O has 8 valence electrons total
+    H-O-H (with 2 lone pairs on O)
+
+2.3 Metallic Bonding
+Metal atoms lose valence electrons to form a delocalized electron "sea."
+
+Characteristics:
+- Found in pure metals and alloys
+- Atoms arranged in lattice with mobile electrons
+- Explains electrical and thermal conductivity
+- Explains malleability and ductility
+
+2.4 Electronegativity and Polarity
+Electronegativity: Ability of an atom to attract electrons in a chemical bond
+Pauling scale: 0.7 (least) to 4.0 (most)
+
+Elements arranged by electronegativity (most common):
+Fluorine (4.0) > Oxygen (3.44) > Nitrogen (3.0) > Chlorine (3.16) > 
+Carbon (2.55) > Hydrogen (2.20) > Sodium (0.93)
+
+Bond polarity increases with electronegativity difference:
+- ΔEN < 0.4: Nonpolar covalent
+- 0.4 < ΔEN < 1.7: Polar covalent
+- ΔEN > 1.7: Ionic
+
+Chapter 3: Molecular Geometry
+
+3.1 VSEPR Theory
+Valence Shell Electron Pair Repulsion theory predicts molecular geometry.
+
+Electron pairs (both bonding and lone pairs) repel each other and arrange to minimize repulsion.
+
+2 electron pairs: Linear (180°)
+3 electron pairs: Trigonal planar (120°)
+4 electron pairs: Tetrahedral (109.5°)
+5 electron pairs: Trigonal bipyramidal (90°, 120°)
+6 electron pairs: Octahedral (90°)
+
+Examples:
+- CO₂: Linear (2 double bonds, no lone pairs on C)
+- H₂O: Bent (2 bonds, 2 lone pairs on O) - angle ≈ 104.5°
+- NH₃: Trigonal pyramidal (3 bonds, 1 lone pair on N) - angle ≈ 107°
+- CH₄: Tetrahedral (4 bonds, no lone pairs on C) - angle = 109.5°
+
+3.2 Hybridization
+Atoms can combine atomic orbitals to form hybrid orbitals for bonding.
+
+sp hybridization: 2 hybrid orbitals, linear
+sp² hybridization: 3 hybrid orbitals, trigonal planar
+sp³ hybridization: 4 hybrid orbitals, tetrahedral
+
+Chapter 4: Periodic Trends
+
+4.1 Atomic Radius
+Generally decreases from left to right across a period (more protons attract electrons closer)
+Generally increases down a group (more electron shells)
+
+4.2 Ionization Energy
+Energy required to remove an electron from an atom
+Generally increases from left to right across a period
+Generally decreases down a group
+
+4.3 Electron Affinity
+Energy change when an electron is added to an atom
+Generally increases from left to right (more positive nuclei attract electrons)
+Generally decreases down a group (outer electrons farther from nucleus)
+
+4.4 Electronegativity
+Generally increases from left to right across a period
+Generally decreases down a group
+
+This guide covers fundamental concepts in atomic structure and chemical bonding essential for chemistry courses.

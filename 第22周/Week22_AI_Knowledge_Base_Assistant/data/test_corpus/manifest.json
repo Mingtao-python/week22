@@ -1,0 +1,612 @@
+[
+  {
+    "document_id": "math_001",
+    "filename": "math_001.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is algebra?",
+      "Explain Algebra: Linear Equations and Systems",
+      "How do you solve algebra problems?"
+    ]
+  },
+  {
+    "document_id": "math_002",
+    "filename": "math_002.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is algebra?",
+      "Explain Algebra: Quadratic Equations and Roots",
+      "How do you solve algebra problems?"
+    ]
+  },
+  {
+    "document_id": "math_003",
+    "filename": "math_003.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is algebra?",
+      "Explain Algebra: Polynomials and Factoring",
+      "How do you solve algebra problems?"
+    ]
+  },
+  {
+    "document_id": "math_004",
+    "filename": "math_004.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is algebra?",
+      "Explain Algebra: Exponents and Radicals",
+      "How do you solve algebra problems?"
+    ]
+  },
+  {
+    "document_id": "math_005",
+    "filename": "math_005.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is algebra?",
+      "Explain Algebra: Rational Expressions",
+      "How do you solve algebra problems?"
+    ]
+  },
+  {
+    "document_id": "math_006",
+    "filename": "math_006.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is geometry?",
+      "Explain Geometry: Triangles and Properties",
+      "How do you solve geometry problems?"
+    ]
+  },
+  {
+    "document_id": "math_007",
+    "filename": "math_007.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is geometry?",
+      "Explain Geometry: Circles and Circumference",
+      "How do you solve geometry problems?"
+    ]
+  },
+  {
+    "document_id": "math_008",
+    "filename": "math_008.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is geometry?",
+      "Explain Geometry: Volume and Surface Area",
+      "How do you solve geometry problems?"
+    ]
+  },
+  {
+    "document_id": "math_009",
+    "filename": "math_009.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is calculus?",
+      "Explain Calculus: Limits and Continuity",
+      "How do you solve calculus problems?"
+    ]
+  },
+  {
+    "document_id": "math_010",
+    "filename": "math_010.txt",
+    "type": "txt",
+    "subject": "Mathematics",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is calculus?",
+      "Explain Calculus: Derivatives and Applications",
+      "How do you solve calculus problems?"
+    ]
+  },
+  {
+    "document_id": "physics_011",
+    "filename": "physics_011.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Motion: Kinematics and Velocity",
+      "What is motion?"
+    ]
+  },
+  {
+    "document_id": "physics_012",
+    "filename": "physics_012.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Motion: Acceleration and Forces",
+      "What is motion?"
+    ]
+  },
+  {
+    "document_id": "physics_013",
+    "filename": "physics_013.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Energy: Potential and Kinetic",
+      "What is energy?"
+    ]
+  },
+  {
+    "document_id": "physics_014",
+    "filename": "physics_014.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Energy: Conservation of Energy",
+      "What is energy?"
+    ]
+  },
+  {
+    "document_id": "physics_015",
+    "filename": "physics_015.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Waves: Frequency and Wavelength",
+      "What is waves?"
+    ]
+  },
+  {
+    "document_id": "physics_016",
+    "filename": "physics_016.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Waves: Sound and Electromagnetic",
+      "What is waves?"
+    ]
+  },
+  {
+    "document_id": "physics_017",
+    "filename": "physics_017.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Heat: Temperature and Thermodynamics",
+      "What is heat?"
+    ]
+  },
+  {
+    "document_id": "physics_018",
+    "filename": "physics_018.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Electricity: Circuits and Current",
+      "What is electricity?"
+    ]
+  },
+  {
+    "document_id": "physics_019",
+    "filename": "physics_019.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Magnetism: Magnetic Fields",
+      "What is magnetism?"
+    ]
+  },
+  {
+    "document_id": "physics_020",
+    "filename": "physics_020.txt",
+    "type": "txt",
+    "subject": "Physics",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "Explain Light: Reflection and Refraction",
+      "What is light?"
+    ]
+  },
+  {
+    "document_id": "chemistry_021",
+    "filename": "chemistry_021.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Atomic Structure: Electrons and Orbitals?",
+      "Explain atomic structure: electrons and orbitals"
+    ]
+  },
+  {
+    "document_id": "chemistry_022",
+    "filename": "chemistry_022.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Bonding: Covalent and Ionic Bonds?",
+      "Explain bonding: covalent and ionic bonds"
+    ]
+  },
+  {
+    "document_id": "chemistry_023",
+    "filename": "chemistry_023.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Reactions: Acids and Bases?",
+      "Explain reactions: acids and bases"
+    ]
+  },
+  {
+    "document_id": "chemistry_024",
+    "filename": "chemistry_024.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Reactions: Oxidation and Reduction?",
+      "Explain reactions: oxidation and reduction"
+    ]
+  },
+  {
+    "document_id": "chemistry_025",
+    "filename": "chemistry_025.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Solutions: Concentration and pH?",
+      "Explain solutions: concentration and ph"
+    ]
+  },
+  {
+    "document_id": "chemistry_026",
+    "filename": "chemistry_026.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Organic Chemistry: Hydrocarbons?",
+      "Explain organic chemistry: hydrocarbons"
+    ]
+  },
+  {
+    "document_id": "chemistry_027",
+    "filename": "chemistry_027.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Organic Chemistry: Functional Groups?",
+      "Explain organic chemistry: functional groups"
+    ]
+  },
+  {
+    "document_id": "chemistry_028",
+    "filename": "chemistry_028.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Equilibrium: Reaction Rates?",
+      "Explain equilibrium: reaction rates"
+    ]
+  },
+  {
+    "document_id": "chemistry_029",
+    "filename": "chemistry_029.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Electrochemistry: Cells and Potentials?",
+      "Explain electrochemistry: cells and potentials"
+    ]
+  },
+  {
+    "document_id": "chemistry_030",
+    "filename": "chemistry_030.txt",
+    "type": "txt",
+    "subject": "Chemistry",
+    "grade": "10-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is Thermochemistry: Heat and Reactions?",
+      "Explain thermochemistry: heat and reactions"
+    ]
+  },
+  {
+    "document_id": "biology_031",
+    "filename": "biology_031.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is cell biology?",
+      "Explain Cell Biology: Cell Structure and Function"
+    ]
+  },
+  {
+    "document_id": "biology_032",
+    "filename": "biology_032.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is cell biology?",
+      "Explain Cell Biology: Photosynthesis and Respiration"
+    ]
+  },
+  {
+    "document_id": "biology_033",
+    "filename": "biology_033.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is genetics?",
+      "Explain Genetics: DNA and Inheritance"
+    ]
+  },
+  {
+    "document_id": "biology_034",
+    "filename": "biology_034.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is genetics?",
+      "Explain Genetics: Mutations and Evolution"
+    ]
+  },
+  {
+    "document_id": "biology_035",
+    "filename": "biology_035.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is ecology?",
+      "Explain Ecology: Organisms and Populations"
+    ]
+  },
+  {
+    "document_id": "biology_036",
+    "filename": "biology_036.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is ecology?",
+      "Explain Ecology: Ecosystems and Food Webs"
+    ]
+  },
+  {
+    "document_id": "biology_037",
+    "filename": "biology_037.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is human body?",
+      "Explain Human Body: Skeletal and Muscular Systems"
+    ]
+  },
+  {
+    "document_id": "biology_038",
+    "filename": "biology_038.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is human body?",
+      "Explain Human Body: Circulatory and Respiratory"
+    ]
+  },
+  {
+    "document_id": "biology_039",
+    "filename": "biology_039.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is immunology?",
+      "Explain Immunology: Immune System Defense"
+    ]
+  },
+  {
+    "document_id": "biology_040",
+    "filename": "biology_040.txt",
+    "type": "txt",
+    "subject": "Biology",
+    "grade": "9-12",
+    "permission": "public",
+    "expected_queries": [
+      "What is microbiology?",
+      "Explain Microbiology: Bacteria and Viruses"
+    ]
+  },
+  {
+    "document_id": "history_041",
+    "filename": "history_041.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the renaissance?",
+      "Explain Renaissance: Art and Culture"
+    ]
+  },
+  {
+    "document_id": "history_042",
+    "filename": "history_042.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the renaissance?",
+      "Explain Renaissance: Scientific Revolution"
+    ]
+  },
+  {
+    "document_id": "history_043",
+    "filename": "history_043.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the enlightenment?",
+      "Explain Enlightenment: Philosophy and Ideas"
+    ]
+  },
+  {
+    "document_id": "history_044",
+    "filename": "history_044.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the industrial revolution?",
+      "Explain Industrial Revolution: Technology"
+    ]
+  },
+  {
+    "document_id": "history_045",
+    "filename": "history_045.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the revolutions?",
+      "Explain Revolutions: American and French"
+    ]
+  },
+  {
+    "document_id": "history_046",
+    "filename": "history_046.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the imperialism?",
+      "Explain Imperialism: Colonization and Effects"
+    ]
+  },
+  {
+    "document_id": "history_047",
+    "filename": "history_047.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the world wars?",
+      "Explain World Wars: Causes and Consequences"
+    ]
+  },
+  {
+    "document_id": "history_048",
+    "filename": "history_048.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the cold war?",
+      "Explain Cold War: Tensions and Conflicts"
+    ]
+  },
+  {
+    "document_id": "history_049",
+    "filename": "history_049.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the modern era?",
+      "Explain Modern Era: Globalization"
+    ]
+  },
+  {
+    "document_id": "history_050",
+    "filename": "history_050.txt",
+    "type": "txt",
+    "subject": "History",
+    "grade": "8-12",
+    "permission": "public",
+    "expected_queries": [
+      "What was the contemporary?",
+      "Explain Contemporary: 21st Century Challenges"
+    ]
+  }
+]

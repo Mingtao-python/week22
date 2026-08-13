@@ -1,0 +1,235 @@
+Biology: Cell Structure and Function
+
+Chapter 1: Introduction to Cells
+
+1.1 Cell Theory
+The cell is the basic unit of life. Key principles:
+1. All living organisms are composed of one or more cells
+2. The cell is the smallest unit of life
+3. All cells arise from pre-existing cells
+
+Cells were first observed by Robert Hooke in 1665 using an early microscope.
+
+1.2 Cell Types
+Prokaryotic cells: No nucleus or membrane-bound organelles
+- Found in bacteria and archaea
+- Simpler and smaller (typically 1-10 μm)
+- No histones for DNA organization (usually)
+- Single, circular DNA chromosome
+
+Eukaryotic cells: Nucleus and membrane-bound organelles
+- Found in animals, plants, fungi, and protists
+- Larger (typically 10-100 μm)
+- DNA organized by histones into chromosomes
+- Multiple linear DNA chromosomes in nucleus
+
+Chapter 2: Prokaryotic Cell Structure
+
+2.1 Cell Membrane (Plasma Membrane)
+Selectively permeable barrier surrounding the cell
+- Phospholipid bilayer with embedded proteins
+- Controls what enters and exits the cell
+
+2.2 Cytoplasm
+Gel-like substance filling the cell interior
+- Contains ribosomes, plasmids, and other molecules
+
+2.3 Nucleoid Region
+Area where DNA is located (not enclosed by a membrane)
+- Usually contains one circular DNA chromosome
+- May contain plasmids (small, circular DNA molecules)
+
+2.4 Cell Wall
+Rigid outer layer (in bacteria)
+- Provides structural support and protection
+- Composed of peptidoglycan (unique to bacteria)
+
+2.5 Ribosomes
+Structures that synthesize proteins
+- 70S ribosomes (smaller than eukaryotic)
+- Located free in cytoplasm
+
+2.6 Flagella and Pili
+Flagella: Tail-like structures for movement
+Pili: Hair-like projections for attachment and conjugation
+
+Chapter 3: Eukaryotic Cell Structure
+
+3.1 Nucleus
+Double-membrane organelle containing most of the cell's DNA
+- Nuclear envelope (nuclear membrane) controls entry/exit
+- Nucleolus: Site of ribosomal RNA synthesis
+- Chromatin: DNA and histone proteins
+- During cell division, chromatin condenses into visible chromosomes
+
+3.2 Ribosomes
+80S ribosomes (larger than prokaryotic)
+- Some free in cytoplasm (rough endoplasmic reticulum)
+- Synthesize proteins
+
+3.3 Endoplasmic Reticulum (ER)
+Network of membrane-bound channels
+
+Rough ER:
+- Studded with ribosomes
+- Synthesizes proteins for secretion and membrane proteins
+- Connected to the nuclear envelope
+
+Smooth ER:
+- No ribosomes
+- Synthesizes lipids
+- Involved in drug and detoxification metabolism
+- Calcium storage in muscle cells
+
+3.4 Golgi Apparatus
+Stacked membrane sacs near the nucleus
+- Receives proteins and lipids from ER
+- Modifies, packages, and ships them in vesicles
+- Functions: packaging and transport
+
+3.5 Mitochondria
+"Powerhouse of the cell"
+- Double membrane organelle
+- Site of aerobic cellular respiration
+- Produces ATP (adenosine triphosphate) for energy
+- Contains own DNA and ribosomes (prokaryotic origin)
+- Outer membrane: Smooth
+- Inner membrane: Highly folded into cristae
+- Matrix: Inner space containing enzymes
+
+3.6 Lysosomes
+Membrane-bound sacs containing digestive enzymes
+- Found mainly in animal cells
+- Break down cellular waste and debris
+- Autophagy: Process of lysosomes breaking down damaged organelles
+
+3.7 Chloroplasts (Plant Cells)
+Site of photosynthesis
+- Double membrane organelle
+- Contains thylakoids (stack into grana)
+- Stroma: Gel-like interior with Calvin cycle enzymes
+- Contains own DNA and ribosomes (prokaryotic origin)
+- Green color from chlorophyll pigments
+
+3.8 Vacuoles
+Storage compartments
+
+Animal cells: Small vacuoles, various functions
+Plant cells: Large central vacuole
+- Maintains turgor pressure (keeps plant firm)
+- Stores water, nutrients, and waste
+- Can occupy up to 90% of cell volume
+
+3.9 Cytoskeleton
+Network of protein filaments throughout cytoplasm
+
+Components:
+Microfilaments: Thin actin filaments
+- Cell movement, muscle contraction, cytokinesis
+
+Intermediate filaments: Strong structural elements
+- Provide mechanical strength
+- Include keratin in skin cells
+
+Microtubules: Hollow tubulin cylinders
+- Maintain cell shape
+- Movement of organelles
+- Component of centrioles and flagella
+- Involved in mitosis and meiosis
+
+3.10 Centrioles
+Paired barrel-shaped structures (in animal cells)
+- Located near the nucleus
+- Composed of nine triplets of microtubules
+- Function in cell division and formation of cilia/flagella
+
+3.11 Cell Wall (Plant Cells)
+Rigid outer layer surrounding the cell membrane
+- Composed of cellulose
+- Provides structural support
+- Prevents excessive water uptake
+
+3.12 Cilia and Flagella (Eukaryotic)
+Cilia: Numerous, short hair-like structures
+- Move substances along cell surface
+- Found in respiratory tract, reproductive system
+
+Flagella: Single or few, long tail-like structures
+- Propel the cell through fluid
+- Found in sperm cells and some protists
+
+Chapter 4: Cell Membrane Structure and Function
+
+4.1 Fluid Mosaic Model
+Describes the cell membrane as:
+- Fluid: Lipids and proteins move within the membrane
+- Mosaic: Composed of different types of molecules
+
+4.2 Phospholipid Bilayer
+Basic structure of all cell membranes
+- Hydrophilic heads face outward (toward water)
+- Hydrophobic tails face inward (away from water)
+- Selectively permeable to many substances
+
+4.3 Membrane Proteins
+Integral proteins: Span the entire membrane
+- Often function as channels, carriers, or receptors
+
+Peripheral proteins: Attached to membrane surface
+- Provide structural support
+- Involved in signaling
+
+Functions:
+- Transport
+- Cell recognition
+- Receptor sites
+- Enzyme activity
+- Cell-cell communication
+
+4.4 Cholesterol and Carbohydrates
+Cholesterol: Decreases membrane fluidity and increases stability
+Carbohydrates: Form glycoproteins and glycolipids
+- Cell recognition markers
+- Immune response
+- Blood type determination
+
+Chapter 5: Transport Across Membranes
+
+5.1 Passive Transport
+No energy (ATP) required
+
+Diffusion: Movement from high to low concentration
+- Oxygen diffusion into cells
+- Carbon dioxide diffusion out of cells
+
+Osmosis: Diffusion of water across a semipermeable membrane
+- Hypertonic solution: Water leaves cell (plasmolysis)
+- Hypotonic solution: Water enters cell (turgid)
+- Isotonic solution: Equal water movement (equilibrium)
+
+Facilitated diffusion: Protein channels aid diffusion
+- No ATP needed
+- Moves glucose, ions
+- Follows concentration gradient
+
+5.2 Active Transport
+Requires ATP energy
+
+Moves substances against concentration gradient (low to high)
+Examples:
+- Sodium-potassium pump (Na⁺/K⁺-ATPase)
+- Maintains cell volume and potential difference
+- Exchanges 3 Na⁺ out for 2 K⁺ in
+
+5.3 Bulk Transport
+
+Endocytosis: Cell takes in large materials
+- Phagocytosis: Cell "eating" large particles or cells
+- Pinocytosis: Cell "drinking" fluids and small molecules
+- Receptor-mediated: Specific uptake via receptor proteins
+
+Exocytosis: Cell releases large materials
+- Vesicles fuse with cell membrane
+- Releases hormones, neurotransmitters, proteins
+
+This comprehensive guide covers the structure and function of cells, the basic units of life.

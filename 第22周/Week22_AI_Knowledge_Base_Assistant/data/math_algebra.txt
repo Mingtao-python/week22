@@ -1,0 +1,130 @@
+Mathematics: Algebra Fundamentals
+
+Chapter 1: Linear Equations and Inequalities
+
+1.1 Solving Linear Equations
+A linear equation is an equation in which the highest power of the variable is 1. The general form is ax + b = c, where a, b, and c are constants and a ≠ 0.
+
+Steps to solve a linear equation:
+1. Remove parentheses using the distributive property
+2. Combine like terms on both sides
+3. Move variable terms to one side and constants to the other
+4. Divide both sides by the coefficient of the variable
+
+Example: Solve 3x + 5 = 14
+Step 1: 3x + 5 = 14
+Step 2: 3x = 14 - 5
+Step 3: 3x = 9
+Step 4: x = 3
+
+1.2 Linear Inequalities
+An inequality is a mathematical statement that compares two expressions using <, >, ≤, or ≥.
+
+Key rules:
+- When multiplying or dividing by a negative number, flip the inequality sign
+- All other operations follow the same rules as equations
+
+Example: Solve 2x - 3 > 5
+2x > 8
+x > 4
+
+1.3 Systems of Equations
+A system consists of two or more equations with the same variables. Solutions must satisfy all equations simultaneously.
+
+Methods to solve:
+1. Substitution: Solve one equation for a variable and substitute into the other
+2. Elimination: Add or subtract equations to eliminate a variable
+3. Graphing: Find the intersection point of the lines
+
+Example system:
+x + y = 7
+2x - y = 5
+Adding: 3x = 12, so x = 4, and y = 3
+
+Chapter 2: Quadratic Equations
+
+2.1 Standard Form
+The standard form of a quadratic equation is ax² + bx + c = 0, where a ≠ 0.
+
+2.2 Factoring Method
+If ax² + bx + c = (mx + n)(px + q) = 0, then x = -n/m or x = -q/p
+
+Example: x² + 5x + 6 = 0
+Factoring: (x + 2)(x + 3) = 0
+Solutions: x = -2 or x = -3
+
+2.3 Quadratic Formula
+x = [-b ± √(b² - 4ac)] / 2a
+
+This formula works for all quadratic equations.
+
+Example: x² - 4x - 5 = 0
+Using a = 1, b = -4, c = -5:
+x = [4 ± √(16 + 20)] / 2
+x = [4 ± 6] / 2
+x = 5 or x = -1
+
+2.4 Discriminant
+The discriminant (Δ) = b² - 4ac determines the nature of solutions:
+- If Δ > 0: Two distinct real solutions
+- If Δ = 0: One repeated real solution
+- If Δ < 0: No real solutions (two complex solutions)
+
+Chapter 3: Polynomials
+
+3.1 Definition
+A polynomial is a sum of monomials, each consisting of a coefficient and variables with non-negative integer exponents.
+
+Degree: The highest power of the variable in the polynomial
+Degree 1: Linear (ax + b)
+Degree 2: Quadratic (ax² + bx + c)
+Degree 3: Cubic (ax³ + bx² + cx + d)
+
+3.2 Operations with Polynomials
+
+Addition: Combine like terms
+Example: (3x² + 2x + 1) + (x² - x + 3) = 4x² + x + 4
+
+Subtraction: Distribute negative sign, then combine like terms
+Example: (5x² - 3x) - (2x² + x) = 3x² - 4x
+
+Multiplication: Use distributive property (FOIL for binomials)
+Example: (x + 2)(x + 3) = x² + 3x + 2x + 6 = x² + 5x + 6
+
+3.3 Factoring Polynomials
+Common factor: Factor out the GCD of all terms
+Example: 2x³ + 4x² = 2x²(x + 2)
+
+Trinomial factoring: x² + bx + c = (x + m)(x + n) where mn = c and m + n = b
+Example: x² + 7x + 12 = (x + 3)(x + 4)
+
+Difference of squares: a² - b² = (a + b)(a - b)
+Example: 9x² - 16 = (3x + 4)(3x - 4)
+
+Chapter 4: Exponents and Radicals
+
+4.1 Laws of Exponents
+For any nonzero number a and integers m and n:
+- a^m · a^n = a^(m+n)
+- a^m ÷ a^n = a^(m-n)
+- (a^m)^n = a^(mn)
+- (ab)^n = a^n · b^n
+- a^0 = 1
+- a^(-n) = 1/a^n
+
+4.2 Radical Notation
+The nth root of a is denoted as ⁿ√a. The most common is the square root ²√a = √a.
+
+Properties:
+- √(ab) = √a · √b
+- √(a/b) = √a / √b
+- √(a²) = |a|
+
+Simplifying radicals: Factor out perfect squares
+Example: √72 = √(36 · 2) = 6√2
+
+4.3 Rational Exponents
+a^(m/n) = ⁿ√(a^m) = (ⁿ√a)^m
+Example: 8^(2/3) = ³√(8²) = ³√64 = 4
+
+This comprehensive guide covers fundamental algebraic concepts needed for advanced mathematics courses.
