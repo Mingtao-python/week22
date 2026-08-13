@@ -1,0 +1,177 @@
+Physics: Classical Mechanics
+
+Chapter 1: Kinematics
+
+1.1 Basic Concepts
+Kinematics is the study of motion without considering the forces causing it.
+
+Key definitions:
+- Displacement (s or Δx): Change in position (vector quantity)
+- Velocity (v): Rate of change of displacement (vector quantity)
+  Average velocity = Δx / Δt
+  Instantaneous velocity = ds/dt (derivative of position)
+- Acceleration (a): Rate of change of velocity
+  Average acceleration = Δv / Δt
+  Instantaneous acceleration = dv/dt (derivative of velocity)
+- Speed: Magnitude of velocity (scalar quantity)
+
+1.2 Uniformly Accelerated Motion
+When acceleration is constant, we can use kinematic equations:
+v = v₀ + at
+s = v₀t + ½at²
+v² = v₀² + 2as
+s = ½(v₀ + v)t
+
+Where:
+- s = displacement
+- v = final velocity
+- v₀ = initial velocity
+- a = acceleration
+- t = time
+
+Example: A car starts from rest (v₀ = 0) with acceleration a = 2 m/s² for 5 seconds.
+v = 0 + 2(5) = 10 m/s
+s = 0 + ½(2)(5²) = 25 m
+
+1.3 Projectile Motion
+Projectile motion occurs when an object is launched with an initial velocity at an angle.
+
+Horizontal component: vₓ = v₀cos(θ) (constant)
+Vertical component: vᵧ = v₀sin(θ) - gt (changes due to gravity)
+
+Horizontal displacement: x = v₀cos(θ)t
+Vertical displacement: y = v₀sin(θ)t - ½gt²
+
+Maximum height: h = (v₀sin(θ))² / (2g)
+Range: R = (v₀²sin(2θ)) / g
+
+Chapter 2: Dynamics
+
+2.1 Newton's Laws of Motion
+
+First Law: An object at rest remains at rest, and an object in motion remains in motion unless acted upon by a net external force. This describes inertia.
+
+Second Law: The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.
+F = ma
+Where F is the net force, m is mass, and a is acceleration.
+
+Third Law: For every action, there is an equal and opposite reaction.
+If object A exerts a force on object B, then object B exerts an equal and opposite force on object A.
+
+2.2 Types of Forces
+
+Weight: The force of gravity acting on an object
+W = mg (where g ≈ 9.8 m/s² on Earth)
+
+Normal Force: The perpendicular contact force exerted by a surface
+
+Friction: The force opposing motion
+- Static friction: fs ≤ μs · N (prevents motion)
+- Kinetic friction: fk = μk · N (opposes motion)
+Where μ is the coefficient of friction and N is the normal force
+
+Tension: The pulling force transmitted through a rope or cable
+
+2.3 Applications of Newton's Laws
+
+Inclined Plane: An object on a plane inclined at angle θ
+- Component parallel to plane: mg sin(θ)
+- Component perpendicular to plane: mg cos(θ)
+
+Connected Objects: Use free-body diagrams to analyze forces
+Example: Two masses connected by a rope over a pulley
+For mass m₁ on table and m₂ hanging:
+Net force = m₂g - friction force
+Total mass = m₁ + m₂
+Acceleration = (m₂g - μm₁g) / (m₁ + m₂)
+
+Chapter 3: Work and Energy
+
+3.1 Work
+Work is done when a force causes a displacement in the direction of the force.
+W = F · d · cos(θ)
+Where F is force, d is displacement, and θ is the angle between them.
+
+If force is in the direction of motion: W = Fd
+If force is perpendicular to motion: W = 0
+
+3.2 Energy
+
+Kinetic Energy: Energy of motion
+KE = ½mv²
+
+Potential Energy: Stored energy due to position
+Gravitational PE = mgh (where h is height above reference point)
+Elastic PE = ½kx² (for springs, where k is spring constant, x is compression/extension)
+
+3.3 Conservation of Energy
+In an isolated system with no friction:
+Total mechanical energy = KE + PE = constant
+
+E₁ = E₂
+KE₁ + PE₁ = KE₂ + PE₂
+½mv₁² + mgh₁ = ½mv₂² + mgh₂
+
+Example: A ball dropped from height h
+At top: E = mgh (all potential)
+At bottom: E = ½mv² (all kinetic)
+v = √(2gh)
+
+3.4 Power
+Power is the rate of doing work.
+P = W/t (average power)
+P = F · v (instantaneous power)
+Unit: Watt (W) = Joule per second (J/s)
+
+Chapter 4: Momentum and Collisions
+
+4.1 Momentum
+Momentum is the product of mass and velocity.
+p = mv (vector quantity)
+
+Impulse: Change in momentum
+Impulse = F · Δt = Δp = m · Δv
+
+4.2 Conservation of Momentum
+In an isolated system (no external forces):
+Total momentum before = Total momentum after
+p₁ᵢ + p₂ᵢ = p₁f + p₂f
+
+4.3 Elastic and Inelastic Collisions
+
+Elastic collision: Kinetic energy is conserved
+- Velocities exchange in a head-on collision between equal masses
+- v₁f = ((m₁ - m₂)v₁ᵢ + 2m₂v₂ᵢ) / (m₁ + m₂)
+- v₂f = ((m₂ - m₁)v₂ᵢ + 2m₁v₁ᵢ) / (m₁ + m₂)
+
+Inelastic collision: Kinetic energy is not conserved (converted to heat, sound, deformation)
+- Objects may stick together after collision
+- Using momentum conservation: (m₁ + m₂)vf = m₁v₁ᵢ + m₂v₂ᵢ
+
+Chapter 5: Circular Motion and Gravitation
+
+5.1 Uniform Circular Motion
+For an object moving in a circle at constant speed:
+- Angular velocity: ω = θ/t = 2π/T (radians per second)
+- Linear velocity: v = ωr
+- Centripetal acceleration: ac = v²/r = ω²r
+- Centripetal force: Fc = mac = mv²/r = mω²r
+
+5.2 Newton's Law of Gravitation
+F = G(m₁m₂/r²)
+Where G = 6.674 × 10⁻¹¹ N·m²/kg² (gravitational constant)
+
+Gravitational field strength: g = F/m = GM/r²
+
+5.3 Orbital Motion
+For circular orbits:
+Fc = Fg
+mv²/r = GMm/r²
+v = √(GM/r)
+
+Orbital period: T = 2πr/v = 2π√(r³/GM)
+
+Kepler's Third Law: T² ∝ r³
+For planets in our solar system: T² = (4π²/GM)r³
+
+This comprehensive guide covers the fundamental principles of classical mechanics used throughout physics education.
